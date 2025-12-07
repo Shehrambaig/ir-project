@@ -720,23 +720,6 @@ services:
 
 This is an academic project for **CS516: Information Retrieval & Text Mining**.
 
-### Team
-- [Your Name]
-- [Team Member 2]
-- [Team Member 3]
-
-### Course
-CS516: Information Retrieval & Text Mining
-[Institution Name]
-[Semester/Year]
-
----
-
-## License
-
-MIT License - Academic Project
-
----
 
 ## Acknowledgments
 
