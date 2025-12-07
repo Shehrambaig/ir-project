@@ -14,7 +14,13 @@ class NLPExtractor:
 
     def __init__(self):
         self.nlp=spacy.load("en_core_web_sm")
-        nltk.data.find('tokenizers/punkt')
+
+        try:
+            nltk.data.find('tokenizers/punkt')
+        except LookupError:
+            nltk.download('punkt', quiet=True)
+            nltk.download('stopwords', quiet=True)
+            nltk.download('averaged_perceptron_tagger', quiet=True)
 
         self.doc=None
         self.text=""
